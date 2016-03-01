@@ -2,7 +2,14 @@
   "name": "my-own-angular.js",
   "version": "0.1.0",
   "devDependencies": {
-    "jshint": "^2.9.1"
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.1",
+    "karma": "^0.13.21",
+    "karma-jasmine": "^0.3.7",
+    "karma-jshint-preprocessor": "0.0.6",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19",
+    "sinon": "^1.17.3"
   },
   "scripts": {
     "lint": "jshint src"
