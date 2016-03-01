@@ -1,3 +1,5 @@
+var sayHello = require('../src/hello');
+
 describe("Hello", function(){
 
   it("says Hello", function(){
